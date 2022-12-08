@@ -1,8 +1,11 @@
 const booleanToWord = (boolean) => {
+  if (boolean === true) {
+    return "Yes";
+  }
   if (boolean === false) {
     return "No";
   }
-  return "Yes";
+  return "not a boolean";
 };
 
 module.exports = booleanToWord;
