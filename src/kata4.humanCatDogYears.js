@@ -15,5 +15,5 @@ const humanCatDogYears = (number) => {
 
   return [number, 28 + 4 * x, 29 + 5 * x];
 };
-
+// should i add an if >=3 to the above statement?
 module.exports = humanCatDogYears;
