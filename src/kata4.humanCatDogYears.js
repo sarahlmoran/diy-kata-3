@@ -1,4 +1,6 @@
 const humanCatDogYears = (number) => {
+  const x = (number - 3)
+
   if (number === 0) {
     return [number, number, number];
 }
@@ -16,7 +18,7 @@ if (number ===3) {
 }
 
 
-    return [number, 56, 64]
+    return [number, 28 +(4*x), 29 +(5*x)]
 };
 
 

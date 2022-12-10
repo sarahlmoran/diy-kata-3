@@ -3,7 +3,8 @@ const { humanCatDogYears } = require("../src");
 describe("humanCatDogYears", () => {
   it("returns an array of three numbers of human age, cat age and dog age when passed human age", () => {
     expect(humanCatDogYears(10)).toEqual([10, 56, 64]);
-    //expect(humanCatDogYears(20)).toEqual([20, , ]);
+    expect(humanCatDogYears(9)).toEqual([9, 52, 59]);
+    expect(humanCatDogYears(20)).toEqual([20, 96, 114]);
   });
 
   it("returns an array of three numbers of human age, cat age and dog age when passed 0 as human age", () => {
