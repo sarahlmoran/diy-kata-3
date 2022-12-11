@@ -3,6 +3,8 @@ const joinNames = (namesObj) => {
 
 };
 
+
+
 module.exports = joinNames;
 
 // first I used .map because I wanted to return the name for each object in the array
