@@ -1,8 +1,12 @@
-const getEmployerRole = (employeeName, employees) => {
+/* const getEmployerRole = (employeeName, employees) => {
   const employee = employees.find((object) => object.name === employeeName);
 
   return employee.role;
-};
+}; */
+
+const getEmployerRole = (employeeName, employees) =>
+  employees.find((object) => object.name === employeeName).role;
+
 module.exports = getEmployerRole;
 
 // created a variable employee that returns the whole object of the inputted employee name

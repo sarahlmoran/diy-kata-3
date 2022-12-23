@@ -10,8 +10,14 @@ describe("joinNames", () => {
         { name: "Bart" },
         { name: "Lisa" },
         { name: "Maggie" },
+        { name: "Marge" },
+        { name: "Millhouse" },
+        { name: "Mr Burns" },
+        { name: "Smithers" },
         { name: "Homer" },
       ])
-    ).toEqual("Bart, Lisa, Maggie & Homer");
+    ).toEqual(
+      "Bart, Lisa, Maggie, Marge, Millhouse, Mr Burns, Smithers & Homer"
+    );
   });
 });

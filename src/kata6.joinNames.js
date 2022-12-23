@@ -1,9 +1,8 @@
-const joinNames = (namesObj) => {
-   return namesObj.map(object => object.name).join(", ").replace(/,(?=[^,]+$)/, " &");
-
-};
-
-
+const joinNames = (namesObj) =>
+  namesObj
+    .map((object) => object.name)
+    .join(", ")
+    .replace(/,(?=[^,]+$)/, " &"); // this regex replaces the last comma to an ampersand
 
 module.exports = joinNames;
 
